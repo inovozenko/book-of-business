@@ -57,7 +57,8 @@ for (const {name, payload} of datasets) {
       throw new Error(`No expectations for dataset ${name}`);
     }
 
-    test.slow(expected.rows.length > 50, 'Walks every row of a large tree with the keyboard');
+    // Walking every row with the keyboard takes about 0.4 s a row locally and more on a two-core CI runner.
+    test.setTimeout(30_000 + expected.rows.length * 1_000);
 
     await page.goto(`/?dataset=${name}`);
     await expect(table(page)).toBeVisible();
