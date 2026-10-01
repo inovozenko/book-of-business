@@ -39,6 +39,11 @@ jobs:
   e2e:
     name: E2E
     runs-on: ubuntu-latest
+    # The image has the three browsers and their system packages, so nothing is installed with apt at run time.
+    # Its tag must match the @playwright/test version in package-lock.json.
+    container:
+      image: mcr.microsoft.com/playwright:v1.63.0-noble
+      options: --user 1001
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v7
@@ -47,7 +52,6 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
       - run: npm ci
-      - run: npx playwright install --with-deps chromium firefox webkit
       - run: npm run test:e2e
       - if: failure()
         uses: actions/upload-artifact@v7

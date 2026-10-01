@@ -459,6 +459,9 @@ React Aria — открытая библиотека Adobe под Apache 2.0, б
   - запускается на push в `main`, на pull request и вручную;
   - `check`: lint, проверка типов, unit-тесты, `wrangler deploy --dry-run`. `e2e`: Playwright в трёх
     движках, при падении трейсы сохраняются в артефакт. Обе задачи идут параллельно;
+  - `e2e` идёт в образе `mcr.microsoft.com/playwright` той же версии, что `@playwright/test`: браузеры
+    и их системные пакеты уже в нём. Установка на раннере (`playwright install --with-deps`) в первом прогоне
+    зависла на `apt` больше чем на 18 минут. Цена: тег образа обновляется вместе с версией Playwright;
   - `deploy`: только из `main` и только когда обе задачи прошли. `wrangler deploy` в окружении `production`,
     затем проверка демо: `index.html` с демо совпадает с собранным байт в байт, а `GET /api/clients` отдаёт
     `id` корня из набора `assignment`. Сборка воспроизводима, а Cloudflare отдаёт `index.html` без изменений,

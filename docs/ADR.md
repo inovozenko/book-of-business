@@ -475,6 +475,10 @@ The design has none of them; the look is ours, in the style of the design's card
   - it runs on a push to `main`, on pull requests and by hand;
   - `check`: lint, type check, unit tests, `wrangler deploy --dry-run`. `e2e`: Playwright in three engines; on
     failure the traces are kept as an artifact. Both jobs run in parallel;
+  - `e2e` runs in the `mcr.microsoft.com/playwright` image of the same version as `@playwright/test`: the browsers
+    and their system packages are already in it. Installing them on the runner (`playwright install --with-deps`)
+    hung on `apt` for more than 18 minutes in the first run. The cost: the image tag is updated together with the
+    Playwright version;
   - `deploy`: only from `main`, and only when both jobs passed. `wrangler deploy` in the `production` environment,
     then a check of the demo: `index.html` from the demo matches the built one byte for byte, and `GET /api/clients`
     returns the root `id` of the `assignment` dataset. The build is reproducible and Cloudflare serves `index.html`
