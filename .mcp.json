@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "idea": {
+      "url": "http://127.0.0.1:64342/stream",
+      "type": "http"
+    },
+    "figma": {
+      "url": "https://mcp.figma.com/mcp",
+      "type": "http"
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@0.0.83", "--browser", "chromium", "--isolated"]
+    }
+  }
+}

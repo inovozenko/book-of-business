@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "book-of-business",
+  "main": "server/src/worker.ts",
+  "compatibility_date": "2026-09-01",
+  // Builds the client before every deploy and dry run.
+  "build": {
+    "command": "npm run build"
+  },
+  // The built client. A request with no matching file goes to the Worker, so /api/* reaches Hono.
+  "assets": {
+    "directory": "./dist/client"
+  },
+  "observability": {
+    "enabled": true
+  }
+}

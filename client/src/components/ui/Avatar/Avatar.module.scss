@@ -1,0 +1,19 @@
+.avatar {
+  display: block;
+  flex: none;
+  border-radius: var(--radius-avatar);
+  object-fit: cover;
+}
+
+.initials {
+  display: grid;
+  place-items: center;
+  background: var(--color-series-existing-clients);
+  color: var(--color-background-secondary);
+  font-weight: 600;
+  line-height: 1;
+
+  &::before {
+    content: attr(data-initials);
+  }
+}

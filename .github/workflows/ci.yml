@@ -1,0 +1,93 @@
+name: CI
+
+# Pull requests are only checked; a push to main is checked and then deploys the demo.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  # A newer push to a pull request replaces the older run; runs on main finish, so a deploy is never cut off.
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+env:
+  DEMO_URL: https://book-of-business.inovozenko.workers.dev
+
+jobs:
+  check:
+    name: Lint, types, unit tests, Worker bundle
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test
+      # Builds the client and bundles the Worker; needs no Cloudflare credentials.
+      - run: npx wrangler deploy --dry-run
+
+  e2e:
+    name: E2E
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium firefox webkit
+      - run: npm run test:e2e
+      - if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: playwright-traces
+          path: test-results/
+          retention-days: 7
+
+  deploy:
+    name: Deploy the demo
+    needs: [check, e2e]
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: production
+      url: ${{ env.DEMO_URL }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npx wrangler deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      # The build is reproducible and Cloudflare serves index.html unchanged, so a byte match means the demo
+      # runs this commit. Right after a deploy some edge locations still serve the old version, hence the retries.
+      - name: Check the demo
+        run: |
+          expected_id=$(jq -r .id server/src/data/assignment.json)
+          for attempt in $(seq 12); do
+            if curl -fsS "$DEMO_URL/" | cmp -s - dist/client/index.html \
+              && [ "$(curl -fsS "$DEMO_URL/api/clients" | jq -r .id)" = "$expected_id" ]; then
+              echo "The demo serves this build, and /api/clients answers with the assignment data."
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "::error::After a minute $DEMO_URL still does not serve this build, or /api/clients does not answer with the assignment data."
+          exit 1

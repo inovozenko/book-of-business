@@ -1,0 +1,73 @@
+/*
+ * Design tokens taken from the Figma file (Mockup 2, node 1:2781).
+ * Names follow the Figma variables where the design has them.
+ */
+:root {
+  /* Content */
+  --color-content-primary: #141413;
+  --color-content-secondary: rgb(20 20 19 / 0.6);
+
+  /* Backgrounds and surfaces */
+  --color-background-primary: #f7f5ed;
+  --color-background-secondary: #ffffff;
+  --color-surface-secondary: rgb(20 20 19 / 0.04);
+
+  /* Outlines */
+  --color-outline-solid: rgb(20 20 19 / 0.08);
+  --color-outline-dotted: rgb(20 20 19 / 0.16);
+
+  /* Not in the design: focus ring and the error state */
+  --color-focus: #5b3fd6;
+  --color-skeleton: rgb(20 20 19 / 0.06);
+
+  /* Chart series. The first three come from the design, the rest is a fallback for channels with new names. */
+  --color-series-existing-clients: #b29df8;
+  --color-series-new-organic: #f4beb4;
+  --color-series-new-paid: #a75e6e;
+  --color-series-fallback-1: #7fb2b8;
+  --color-series-fallback-2: #e3b65f;
+  --color-series-fallback-3: #8e9aaf;
+  --color-series-fallback-4: #9cc08a;
+
+  /* Typography */
+  --font-family-sans: 'Inter Variable', Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  /* 35px with a 1.25 line height, rounded to 44px as Figma lays the text box out, so that
+     everything below sits on whole pixels. */
+  --font-title: 400 35px / 44px var(--font-family-sans);
+  --font-body: 400 14px / 20px var(--font-family-sans);
+  --font-footnote: 400 12px / 16px var(--font-family-sans);
+
+  /* Radii */
+  --radius-card: 8px;
+  --radius-legend-marker: 2px;
+  --radius-avatar: 50%;
+
+  /* Page layout */
+  --page-gutter: 16px;
+  --page-padding-block: 24px;
+  --page-gap: 16px;
+
+  /* Table */
+  --table-row-height: 56px;
+  --table-name-width: 264px;
+  --table-value-width: 76px;
+  /* Narrowest a month column gets before the table scrolls; fits "May 2024". */
+  --table-value-min-width: 68px;
+  --table-column-gap: 16px;
+  --table-padding-start: 16px;
+  --table-padding-end: 24px;
+  --table-indent: 28px;
+  --table-icon-size: 16px;
+  --table-name-gap: 8px;
+
+  /* Chart. Recharts takes the plot geometry as numbers, so it lives in StackedBarChart.tsx. */
+  --chart-padding: 24px 16px 16px;
+  --chart-gap: 16px;
+  --chart-legend-gap: 16px;
+  --chart-legend-item-gap: 4px;
+  --chart-legend-marker-size: 8px;
+
+  /* Motion */
+  /* Ease in and out: rows start and stop smoothly, which hides a slow first frame. */
+  --motion-easing: cubic-bezier(0.4, 0, 0.2, 1);
+}

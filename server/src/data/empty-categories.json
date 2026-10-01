@@ -1,0 +1,36 @@
+{
+  "id": "0865bfac-2a9f-4433-a782-70567a517510",
+  "name": "Company",
+  "values": [40, 0, 35, 38, 0, 42, 45, 44, 0, 46, 48, 50],
+  "branches": [
+    {
+      "id": "0382de13-2817-4669-adb6-0e047c9c33fd",
+      "name": "Central",
+      "values": [40, 0, 35, 38, 0, 42, 45, 44, 0, 46, 48, 50],
+      "employees": [
+        {
+          "id": "02e9859b-8e38-4cd0-b9a0-a58b9e01e45f",
+          "name": "Ava Martinez",
+          "values": [40, 0, 35, 38, 0, 42, 45, 44, 0, 46, 48, 50],
+          "channels": [
+            {
+              "id": "33ed791a-671e-4c32-b9d3-911765f63a27",
+              "name": "Existing clients",
+              "values": [36, 0, 30, 34, 0, 38, 45, 40, 0, 41, 43, 45]
+            },
+            {
+              "id": "5f48b2b9-8baa-4d2c-9f50-db5d32e1a1b5",
+              "name": "New organic",
+              "values": [4, 0, 5, 4, 0, 4, 0, 4, 0, 5, 5, 5]
+            },
+            {
+              "id": "5ed4941d-5c7b-403c-9a87-b24e4435caae",
+              "name": "New paid",
+              "values": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+.chart {
+  display: flex;
+  flex-direction: column;
+  gap: var(--chart-gap);
+  margin: 0;
+  min-width: 0;
+}
+
+.plot {
+  position: relative;
+  min-width: 0;
+
+  // The value axis is sized from labels measured when the chart draws, possibly before Inter has
+  // loaded. A label that comes out a pixel wider spills into the card padding instead of being cut.
+  svg {
+    overflow: visible;
+  }
+}
+
+/* Recharts puts the class on each grid line. */
+.grid {
+  stroke: var(--color-outline-dotted);
+  stroke-dasharray: 1 6;
+  stroke-linecap: round;
+}
+
+.tickLabel {
+  font: var(--font-footnote);
+  font-feature-settings: 'lnum' 1, 'tnum' 1;
+  fill: var(--color-content-secondary);
+}
+
+// Over the plot area, which the component sets as the box.
+.emptyMessage {
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font: var(--font-body);
+  color: var(--color-content-secondary);
+
+  // The grid line through the middle of the plot stops short of the text.
+  span {
+    padding: 0 8px;
+    background: var(--color-background-secondary);
+  }
+}
+
+.legend {
+  display: flex;
+  min-height: 1lh;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 var(--chart-legend-gap);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font: var(--font-footnote);
+  font-feature-settings: 'lnum' 1, 'tnum' 1;
+  color: var(--color-content-secondary);
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: var(--chart-legend-item-gap);
+  white-space: nowrap;
+}
+
+.legendMarker {
+  width: var(--chart-legend-marker-size);
+  height: var(--chart-legend-marker-size);
+  border-radius: var(--radius-legend-marker);
+}

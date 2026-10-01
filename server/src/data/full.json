@@ -1,0 +1,856 @@
+{
+  "id": "dee5304a-236a-4f84-97df-4b6499038ed8",
+  "name": "Company",
+  "values": [1052, 1104, 1167, 1221, 1291, 1351, 1413, 1476, 1534, 1578, 1629, 1683],
+  "branches": [
+    {
+      "id": "1252335c-2722-465d-91ff-98295d40f6cf",
+      "name": "Zurich",
+      "values": [239, 252, 276, 294, 312, 322, 343, 359, 375, 390, 401, 420],
+      "employees": [
+        {
+          "id": "2fc9bf97-68df-4e0e-b2c2-920db288425b",
+          "name": "Anna Keller",
+          "values": [20, 20, 22, 25, 27, 25, 28, 28, 27, 28, 30, 35],
+          "channels": [
+            {
+              "id": "c37a5cca-230b-4f95-b1d3-64ef373dfbec",
+              "name": "Existing clients",
+              "values": [20, 18, 19, 22, 24, 25, 25, 27, 26, 27, 27, 30]
+            },
+            {
+              "id": "49b044d2-d58e-48d9-8ed1-c9775dfadd4e",
+              "name": "New organic",
+              "values": [0, 0, 2, 2, 3, 0, 2, 1, 0, 1, 1, 3]
+            },
+            {
+              "id": "4b5ee1bf-d770-49cf-b8bb-ec19f6ee4d0e",
+              "name": "New paid",
+              "values": [0, 2, 1, 1, 0, 0, 1, 0, 1, 0, 2, 2]
+            }
+          ]
+        },
+        {
+          "id": "ee1e3054-339e-45de-b998-339763e59121",
+          "name": "Luca Meier",
+          "values": [25, 25, 30, 33, 34, 35, 36, 40, 42, 41, 40, 43],
+          "channels": [
+            {
+              "id": "90956e0c-449e-454e-b5b4-c23e75528b89",
+              "name": "Existing clients",
+              "values": [24, 23, 25, 30, 32, 32, 34, 36, 39, 40, 40, 39]
+            },
+            {
+              "id": "9d38b436-1456-4cba-b76a-0fc8089408c3",
+              "name": "New organic",
+              "values": [0, 1, 3, 1, 1, 3, 2, 3, 3, 0, 0, 3]
+            },
+            {
+              "id": "f6db9b1a-760d-407e-8dc2-a43ed11cd559",
+              "name": "New paid",
+              "values": [1, 1, 2, 2, 1, 0, 0, 1, 0, 1, 0, 1]
+            }
+          ]
+        },
+        {
+          "id": "b38cf3ae-85f9-493b-b407-6ba93ea4619d",
+          "name": "Sofia Brunner",
+          "values": [27, 29, 34, 35, 37, 39, 41, 39, 39, 39, 42, 45],
+          "channels": [
+            {
+              "id": "5444b522-5c07-4875-b293-640b7592651c",
+              "name": "Existing clients",
+              "values": [25, 27, 29, 34, 35, 37, 37, 39, 38, 37, 39, 41]
+            },
+            {
+              "id": "19fbee31-6190-48c4-be14-776e9c0c4661",
+              "name": "New organic",
+              "values": [2, 0, 3, 0, 1, 0, 2, 0, 0, 1, 3, 3]
+            },
+            {
+              "id": "17025f60-301e-4f75-a8c5-c88293e91288",
+              "name": "New paid",
+              "values": [0, 2, 2, 1, 1, 2, 2, 0, 1, 1, 0, 1]
+            }
+          ]
+        },
+        {
+          "id": "48ed0b60-0e4f-486e-b281-48ac4845cf9c",
+          "name": "Noah Fischer",
+          "values": [29, 32, 34, 34, 35, 37, 37, 41, 44, 47, 48, 50],
+          "channels": [
+            {
+              "id": "79c0adaf-4d1f-4552-b897-878802123b95",
+              "name": "Existing clients",
+              "values": [26, 29, 32, 32, 33, 35, 35, 36, 40, 43, 47, 47]
+            },
+            {
+              "id": "87afb50b-b6e7-4a88-b5ae-514e2c25e50b",
+              "name": "New organic",
+              "values": [1, 2, 0, 0, 0, 2, 0, 3, 2, 3, 1, 1]
+            },
+            {
+              "id": "003b9fd9-5bce-43aa-925c-69bbe629d7d6",
+              "name": "New paid",
+              "values": [2, 1, 2, 2, 2, 0, 2, 2, 2, 1, 0, 2]
+            }
+          ]
+        },
+        {
+          "id": "24d18dc0-7792-44b7-853c-d3c3eac35957",
+          "name": "Mia Weber",
+          "values": [29, 28, 29, 31, 36, 39, 42, 45, 46, 51, 50, 52],
+          "channels": [
+            {
+              "id": "81e49672-02e2-489b-bc2c-771824f3877b",
+              "name": "Existing clients",
+              "values": [28, 27, 28, 29, 31, 36, 39, 40, 44, 46, 49, 50]
+            },
+            {
+              "id": "a03792e8-43ba-4bdd-880a-380ed70aec07",
+              "name": "New organic",
+              "values": [1, 1, 1, 2, 3, 3, 1, 3, 2, 3, 1, 1]
+            },
+            {
+              "id": "4aa86eb4-64d9-4df8-ac44-e4e0f672997b",
+              "name": "New paid",
+              "values": [0, 0, 0, 0, 2, 0, 2, 2, 0, 2, 0, 1]
+            }
+          ]
+        },
+        {
+          "id": "34a74ab1-627f-470a-9f92-4fa6fec9a33d",
+          "name": "Leon Schmid",
+          "values": [26, 30, 33, 36, 37, 39, 43, 46, 49, 49, 50, 52],
+          "channels": [
+            {
+              "id": "c255527c-1fc9-4889-95f1-20c712695844",
+              "name": "Existing clients",
+              "values": [21, 26, 30, 33, 34, 35, 39, 41, 46, 48, 48, 50]
+            },
+            {
+              "id": "de29f5a6-5e95-4628-a25b-f0004e605028",
+              "name": "New organic",
+              "values": [3, 3, 1, 2, 1, 2, 2, 3, 1, 1, 0, 1]
+            },
+            {
+              "id": "fef89b0f-807a-45d8-8c3f-7c7dab9860af",
+              "name": "New paid",
+              "values": [2, 1, 2, 1, 2, 2, 2, 2, 2, 0, 2, 1]
+            }
+          ]
+        },
+        {
+          "id": "cbab405c-2dac-4694-8c3b-6f299770efa8",
+          "name": "Emma Baumann",
+          "values": [25, 26, 28, 31, 33, 34, 37, 39, 39, 38, 41, 41],
+          "channels": [
+            {
+              "id": "439b257e-36da-4c01-b1e9-a4a035145510",
+              "name": "Existing clients",
+              "values": [23, 24, 24, 26, 31, 33, 33, 37, 37, 37, 38, 40]
+            },
+            {
+              "id": "4d02ae07-efdb-4a7c-ae3d-d36bf49812f4",
+              "name": "New organic",
+              "values": [1, 0, 3, 3, 1, 0, 3, 2, 2, 0, 3, 0]
+            },
+            {
+              "id": "a015ef30-d0ce-4c69-baa7-133608a9e729",
+              "name": "New paid",
+              "values": [1, 2, 1, 2, 1, 1, 1, 0, 0, 1, 0, 1]
+            }
+          ]
+        },
+        {
+          "id": "0c9041cd-b343-4ee7-95b8-b3360110fd4c",
+          "name": "Elias Gerber",
+          "values": [29, 31, 33, 36, 40, 42, 46, 48, 53, 56, 59, 61],
+          "channels": [
+            {
+              "id": "6498efeb-a188-429c-96f0-be01bde34449",
+              "name": "Existing clients",
+              "values": [29, 29, 29, 32, 35, 39, 41, 45, 48, 52, 54, 59]
+            },
+            {
+              "id": "c2e9e8f6-9904-4502-8467-edbd0f30853c",
+              "name": "New organic",
+              "values": [0, 0, 2, 3, 3, 3, 3, 3, 3, 3, 3, 0]
+            },
+            {
+              "id": "6257fc33-fbdc-4fcf-a83f-e557023c453b",
+              "name": "New paid",
+              "values": [0, 2, 2, 1, 2, 0, 2, 0, 2, 1, 2, 2]
+            }
+          ]
+        },
+        {
+          "id": "1357fc89-5d85-4f24-8354-206a2db5a52e",
+          "name": "Lina Frei",
+          "values": [29, 31, 33, 33, 33, 32, 33, 33, 36, 41, 41, 41],
+          "channels": [
+            {
+              "id": "e29636ad-8fcc-4fc2-b5f9-97e6e4af3e3e",
+              "name": "Existing clients",
+              "values": [27, 27, 31, 31, 33, 31, 31, 33, 33, 36, 39, 40]
+            },
+            {
+              "id": "ab9e19e8-7309-4dbc-9fa2-0c4aa2bf10d4",
+              "name": "New organic",
+              "values": [2, 3, 2, 0, 0, 0, 1, 0, 3, 3, 2, 1]
+            },
+            {
+              "id": "75dbbee8-e00d-4f2e-95d0-75db3d5ee97e",
+              "name": "New paid",
+              "values": [0, 1, 0, 2, 0, 1, 1, 0, 0, 2, 0, 0]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f81aa00d-9cb4-41b9-ba10-5658de300a4f",
+      "name": "Geneva",
+      "values": [214, 226, 234, 250, 266, 285, 302, 316, 333, 335, 345, 362],
+      "employees": [
+        {
+          "id": "7ff27eb6-8466-4806-99b7-bde1d6167a59",
+          "name": "Chloé Dubois",
+          "values": [24, 28, 29, 32, 33, 37, 41, 44, 48, 47, 48, 48],
+          "channels": [
+            {
+              "id": "feec12a5-3157-456f-87a5-137a35c9d132",
+              "name": "Existing clients",
+              "values": [21, 24, 27, 29, 30, 33, 36, 41, 43, 47, 46, 47]
+            },
+            {
+              "id": "de098e85-88ed-4ae4-b610-ad1c6a1d379e",
+              "name": "New organic",
+              "values": [1, 2, 0, 1, 3, 2, 3, 2, 3, 0, 0, 1]
+            },
+            {
+              "id": "c282d130-cfd9-4fae-9e3e-f83d601c4166",
+              "name": "New paid",
+              "values": [2, 2, 2, 2, 0, 2, 2, 1, 2, 0, 2, 0]
+            }
+          ]
+        },
+        {
+          "id": "473a66e7-5724-419d-8850-1d5e86851cba",
+          "name": "Hugo Martin",
+          "values": [33, 34, 37, 40, 44, 46, 47, 50, 53, 51, 51, 53],
+          "channels": [
+            {
+              "id": "feaf78fc-c984-4b97-8827-805815d05592",
+              "name": "Existing clients",
+              "values": [31, 31, 33, 35, 39, 43, 44, 47, 49, 51, 49, 50]
+            },
+            {
+              "id": "8b2894ee-78ec-4ad8-be5a-7648a85226f7",
+              "name": "New organic",
+              "values": [1, 1, 2, 3, 3, 2, 2, 3, 3, 0, 1, 2]
+            },
+            {
+              "id": "ea449d9c-70b5-4779-93e2-0aed3167ada5",
+              "name": "New paid",
+              "values": [1, 2, 2, 2, 2, 1, 1, 0, 1, 0, 1, 1]
+            }
+          ]
+        },
+        {
+          "id": "03a16863-260d-40fe-a92b-ad8fcc8f9e62",
+          "name": "Léa Bernard",
+          "values": [31, 33, 32, 35, 35, 34, 36, 39, 40, 41, 41, 45],
+          "channels": [
+            {
+              "id": "09a8da66-d21b-43be-a373-5f6ecbf6ab27",
+              "name": "Existing clients",
+              "values": [28, 31, 31, 31, 33, 33, 34, 35, 39, 38, 41, 40]
+            },
+            {
+              "id": "06db4f41-fd3c-4038-8849-9b04b3bcf3b4",
+              "name": "New organic",
+              "values": [1, 1, 1, 2, 2, 0, 2, 3, 0, 3, 0, 3]
+            },
+            {
+              "id": "eb420c9e-7e6b-40c3-9123-61746463bb09",
+              "name": "New paid",
+              "values": [2, 1, 0, 2, 0, 1, 0, 1, 1, 0, 0, 2]
+            }
+          ]
+        },
+        {
+          "id": "9194bd7b-aa78-432d-bd83-d0925176472d",
+          "name": "Louis Morel",
+          "values": [23, 22, 21, 21, 26, 28, 32, 36, 37, 39, 41, 41],
+          "channels": [
+            {
+              "id": "58c591e6-9596-4c2a-84e5-3bc1f90ba3a9",
+              "name": "Existing clients",
+              "values": [23, 21, 20, 19, 21, 24, 28, 32, 34, 36, 39, 39]
+            },
+            {
+              "id": "c1d49917-a97a-461f-8ec4-a6ff01be7be2",
+              "name": "New organic",
+              "values": [0, 0, 0, 1, 3, 3, 2, 3, 3, 3, 0, 1]
+            },
+            {
+              "id": "74b2619e-12f6-43f4-b5a7-e4cfffacdc8d",
+              "name": "New paid",
+              "values": [0, 1, 1, 1, 2, 1, 2, 1, 0, 0, 2, 1]
+            }
+          ]
+        },
+        {
+          "id": "341ba8d6-9a30-4d68-b8fe-488f3dacbc5c",
+          "name": "Manon Girard",
+          "values": [25, 26, 27, 28, 27, 28, 30, 30, 33, 34, 36, 37],
+          "channels": [
+            {
+              "id": "60c1fc7f-0696-43ed-a482-f3011bb09c0c",
+              "name": "Existing clients",
+              "values": [23, 23, 24, 25, 26, 25, 28, 28, 29, 31, 33, 35]
+            },
+            {
+              "id": "a590dbc0-3be7-4f0b-b034-bbea3781f79a",
+              "name": "New organic",
+              "values": [2, 2, 3, 1, 0, 1, 1, 2, 2, 2, 1, 2]
+            },
+            {
+              "id": "8685105a-4c1e-4dd7-97e2-b79cfd43e28a",
+              "name": "New paid",
+              "values": [0, 1, 0, 2, 1, 2, 1, 0, 2, 1, 2, 0]
+            }
+          ]
+        },
+        {
+          "id": "a4165a69-ce73-4f20-a51e-dc561d54e9a7",
+          "name": "Jules Fournier",
+          "values": [30, 29, 31, 34, 36, 41, 41, 40, 44, 44, 47, 50],
+          "channels": [
+            {
+              "id": "a82f9203-a0d4-4c62-8adf-23a50f1d5f0e",
+              "name": "Existing clients",
+              "values": [26, 28, 27, 31, 32, 36, 39, 39, 39, 42, 43, 47]
+            },
+            {
+              "id": "7201aff4-5566-4fd8-b5a0-1a4cc63ca95f",
+              "name": "New organic",
+              "values": [2, 1, 2, 1, 2, 3, 0, 0, 3, 1, 3, 3]
+            },
+            {
+              "id": "6d91d6e2-84f6-4fba-bde1-b8e76318e663",
+              "name": "New paid",
+              "values": [2, 0, 2, 2, 2, 2, 2, 1, 2, 1, 1, 0]
+            }
+          ]
+        },
+        {
+          "id": "34fd4f53-5d65-4dcb-a25d-9779377b8cc3",
+          "name": "Camille Roux",
+          "values": [25, 26, 27, 27, 31, 35, 36, 36, 37, 38, 39, 43],
+          "channels": [
+            {
+              "id": "a07b26c7-dc9f-44e4-b5d9-261422dff645",
+              "name": "Existing clients",
+              "values": [24, 24, 26, 26, 27, 31, 34, 35, 36, 35, 36, 39]
+            },
+            {
+              "id": "303d5b89-fca9-4fc0-9882-9fd9b3d46fc6",
+              "name": "New organic",
+              "values": [1, 2, 1, 1, 3, 3, 0, 1, 1, 1, 1, 2]
+            },
+            {
+              "id": "70e5f7d3-9ccf-4f4e-8b62-00e23ddcc986",
+              "name": "New paid",
+              "values": [0, 0, 0, 0, 1, 1, 2, 0, 0, 2, 2, 2]
+            }
+          ]
+        },
+        {
+          "id": "3259bbcb-6992-437f-9fbb-a732ef5ed72c",
+          "name": "Nathan Blanc",
+          "values": [23, 28, 30, 33, 34, 36, 39, 41, 41, 41, 42, 45],
+          "channels": [
+            {
+              "id": "52aa885d-aec0-4ffc-b1ea-2bc3053abba6",
+              "name": "Existing clients",
+              "values": [22, 23, 27, 30, 33, 32, 35, 37, 39, 40, 39, 41]
+            },
+            {
+              "id": "0edbe4e4-8cff-4f69-973a-c56f2d627290",
+              "name": "New organic",
+              "values": [1, 3, 3, 2, 0, 3, 3, 2, 2, 1, 2, 3]
+            },
+            {
+              "id": "80ca7df0-0680-4b88-b629-8969326ba8cc",
+              "name": "New paid",
+              "values": [0, 2, 0, 1, 1, 1, 1, 2, 0, 0, 1, 1]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0a32e157-df8e-40e3-b3fd-297a8a29070c",
+      "name": "Basel",
+      "values": [201, 212, 226, 232, 244, 254, 260, 273, 282, 292, 301, 306],
+      "employees": [
+        {
+          "id": "2e242c3d-b8a6-409e-a7d7-753ee599a28e",
+          "name": "Laura Huber",
+          "values": [33, 34, 35, 35, 37, 40, 40, 44, 46, 46, 46, 48],
+          "channels": [
+            {
+              "id": "5001d408-838d-4efd-9a21-8a5ff091bb06",
+              "name": "Existing clients",
+              "values": [31, 32, 34, 34, 35, 37, 39, 40, 43, 44, 44, 46]
+            },
+            {
+              "id": "fe76954f-c062-48dc-8e7e-04cfeb5d1d3a",
+              "name": "New organic",
+              "values": [0, 2, 1, 1, 0, 3, 0, 2, 3, 1, 2, 1]
+            },
+            {
+              "id": "6dfe7c41-ccf3-44f9-af7f-bb43144c3505",
+              "name": "New paid",
+              "values": [2, 0, 0, 0, 2, 0, 1, 2, 0, 1, 0, 1]
+            }
+          ]
+        },
+        {
+          "id": "7cc005ca-30f6-4b44-921e-b44d02bf35ef",
+          "name": "Jonas Wenger",
+          "values": [32, 33, 34, 35, 38, 39, 39, 38, 40, 42, 42, 41],
+          "channels": [
+            {
+              "id": "cc81c87d-e629-4175-a208-26f6891d6272",
+              "name": "Existing clients",
+              "values": [27, 32, 31, 33, 34, 36, 37, 37, 38, 38, 41, 40]
+            },
+            {
+              "id": "04e693db-4762-4a5d-b5e1-3d9cdd585ee6",
+              "name": "New organic",
+              "values": [3, 0, 1, 0, 2, 1, 0, 0, 1, 2, 1, 0]
+            },
+            {
+              "id": "3caac867-8f0f-4012-bfea-d5e169bbace7",
+              "name": "New paid",
+              "values": [2, 1, 2, 2, 2, 2, 2, 1, 1, 2, 0, 1]
+            }
+          ]
+        },
+        {
+          "id": "c930057c-d7a9-4526-a119-96626cbc47dd",
+          "name": "Nina Graf",
+          "values": [28, 29, 30, 30, 30, 31, 31, 33, 36, 39, 42, 42],
+          "channels": [
+            {
+              "id": "a5c16e30-b7e8-40fb-8514-e6d4773a64d8",
+              "name": "Existing clients",
+              "values": [27, 28, 27, 29, 29, 30, 29, 30, 32, 35, 37, 40]
+            },
+            {
+              "id": "6393d4c4-5c3c-4a2f-bae0-50f4cb482d32",
+              "name": "New organic",
+              "values": [0, 0, 2, 1, 0, 1, 0, 3, 2, 2, 3, 2]
+            },
+            {
+              "id": "fe8666d4-28c5-4e7f-ae01-81537895479d",
+              "name": "New paid",
+              "values": [1, 1, 1, 0, 1, 0, 2, 0, 2, 2, 2, 0]
+            }
+          ]
+        },
+        {
+          "id": "2bdee34c-c95d-46c2-a7e5-b3d338b5387a",
+          "name": "David Steiner",
+          "values": [29, 31, 31, 33, 38, 40, 41, 42, 43, 46, 46, 49],
+          "channels": [
+            {
+              "id": "2167d110-9e9a-41e5-bcd3-b8656bb58fdc",
+              "name": "Existing clients",
+              "values": [27, 27, 29, 29, 33, 38, 39, 41, 41, 42, 44, 45]
+            },
+            {
+              "id": "e264b636-a8f3-45c4-8b1a-fdac76703eda",
+              "name": "New organic",
+              "values": [0, 3, 0, 2, 3, 2, 1, 0, 1, 3, 1, 3]
+            },
+            {
+              "id": "4008cb56-4274-4b4f-a46a-8ddfda74afa1",
+              "name": "New paid",
+              "values": [2, 1, 2, 2, 2, 0, 1, 1, 1, 1, 1, 1]
+            }
+          ]
+        },
+        {
+          "id": "91639199-043e-4559-b691-4ce99f9cb9d9",
+          "name": "Sara Moser",
+          "values": [23, 24, 26, 25, 26, 27, 28, 30, 29, 29, 30, 28],
+          "channels": [
+            {
+              "id": "e951c086-3e15-4939-a671-3b31147b355f",
+              "name": "Existing clients",
+              "values": [20, 21, 24, 24, 24, 24, 26, 27, 28, 28, 27, 28]
+            },
+            {
+              "id": "5bbdf684-f715-436c-aefc-f3297f754472",
+              "name": "New organic",
+              "values": [3, 3, 1, 0, 1, 3, 1, 2, 1, 0, 3, 0]
+            },
+            {
+              "id": "6d13dde8-18f3-4028-909c-dfb0cc9595e4",
+              "name": "New paid",
+              "values": [0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0]
+            }
+          ]
+        },
+        {
+          "id": "14f2add2-d55b-40e5-a9e6-7099cdbe2d26",
+          "name": "Tim Keller",
+          "values": [27, 30, 35, 38, 38, 37, 37, 40, 40, 41, 45, 46],
+          "channels": [
+            {
+              "id": "2a7e485b-8375-4923-bc84-edfb3777611b",
+              "name": "Existing clients",
+              "values": [24, 27, 30, 35, 36, 36, 36, 37, 39, 38, 41, 43]
+            },
+            {
+              "id": "4d563341-c7f2-4fcb-8d38-a1cd7396c624",
+              "name": "New organic",
+              "values": [1, 1, 3, 1, 2, 1, 1, 2, 1, 3, 2, 1]
+            },
+            {
+              "id": "fd467127-abce-450c-ab1a-ec54e94229f4",
+              "name": "New paid",
+              "values": [2, 2, 2, 2, 0, 0, 0, 1, 0, 0, 2, 2]
+            }
+          ]
+        },
+        {
+          "id": "abfc9895-df1e-44f7-a1ab-e4df6552edb0",
+          "name": "Julia Roth",
+          "values": [29, 31, 35, 36, 37, 40, 44, 46, 48, 49, 50, 52],
+          "channels": [
+            {
+              "id": "15d877c8-97c9-4cc8-b321-5753d4dedd4d",
+              "name": "Existing clients",
+              "values": [25, 29, 31, 33, 34, 36, 40, 42, 44, 47, 49, 50]
+            },
+            {
+              "id": "7e6fa59e-92f2-4d1a-baf0-21b85ac8e646",
+              "name": "New organic",
+              "values": [2, 2, 3, 3, 2, 2, 2, 2, 3, 2, 0, 1]
+            },
+            {
+              "id": "e4d5a01a-8957-4af2-9afe-61507937137a",
+              "name": "New paid",
+              "values": [2, 0, 1, 0, 1, 2, 2, 2, 1, 0, 1, 1]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10201441-511d-4fdf-a6f1-65709f0986f3",
+      "name": "Bern",
+      "values": [221, 225, 237, 247, 259, 277, 278, 290, 299, 312, 322, 329],
+      "employees": [
+        {
+          "id": "d38b7b26-16c3-4004-8c77-3e1ea0c77d55",
+          "name": "Lea Zimmermann",
+          "values": [30, 31, 32, 33, 38, 42, 42, 44, 48, 48, 48, 49],
+          "channels": [
+            {
+              "id": "e6ddac8f-45b4-4893-a308-91f85dcff91c",
+              "name": "Existing clients",
+              "values": [28, 30, 29, 32, 33, 38, 42, 41, 44, 47, 47, 46]
+            },
+            {
+              "id": "dc1a0770-6cb9-4b07-9744-57e3079f3fdf",
+              "name": "New organic",
+              "values": [0, 0, 2, 1, 3, 3, 0, 1, 3, 0, 0, 1]
+            },
+            {
+              "id": "6c66b4a4-d521-4204-a3af-9072f5942224",
+              "name": "New paid",
+              "values": [2, 1, 1, 0, 2, 1, 0, 2, 1, 1, 1, 2]
+            }
+          ]
+        },
+        {
+          "id": "edf31e94-d9bc-4e5e-b366-e2d0992955d3",
+          "name": "Simon Bühler",
+          "values": [25, 24, 26, 28, 30, 33, 32, 37, 39, 37, 36, 36],
+          "channels": [
+            {
+              "id": "f5626d85-b3b3-448c-83a2-879171bcd106",
+              "name": "Existing clients",
+              "values": [23, 24, 24, 24, 27, 29, 31, 32, 36, 37, 36, 34]
+            },
+            {
+              "id": "edfecd41-22ba-473a-a753-47ecfdfcee79",
+              "name": "New organic",
+              "values": [2, 0, 1, 2, 1, 3, 1, 3, 2, 0, 0, 1]
+            },
+            {
+              "id": "83453b85-3051-4b1a-b057-f18775598d11",
+              "name": "New paid",
+              "values": [0, 0, 1, 2, 2, 1, 0, 2, 1, 0, 0, 1]
+            }
+          ]
+        },
+        {
+          "id": "ef9ca612-3827-4ffc-955d-45d55990e973",
+          "name": "Anja Hofer",
+          "values": [32, 33, 35, 35, 36, 38, 38, 38, 40, 43, 45, 46],
+          "channels": [
+            {
+              "id": "86d0d61a-6f3f-4222-9a10-deb5797b2ffd",
+              "name": "Existing clients",
+              "values": [30, 30, 32, 35, 33, 36, 38, 37, 38, 40, 42, 44]
+            },
+            {
+              "id": "ca50e7cc-c8e9-45a7-9f43-b1579c8124a0",
+              "name": "New organic",
+              "values": [0, 2, 2, 0, 1, 0, 0, 1, 2, 3, 1, 2]
+            },
+            {
+              "id": "039b110f-917d-40bb-9505-816a1fbc5f97",
+              "name": "New paid",
+              "values": [2, 1, 1, 0, 2, 2, 0, 0, 0, 0, 2, 0]
+            }
+          ]
+        },
+        {
+          "id": "111cb6da-8288-4b3f-8834-bc951bfebe45",
+          "name": "Marco Lüthi",
+          "values": [35, 34, 36, 39, 39, 42, 43, 45, 44, 47, 50, 51],
+          "channels": [
+            {
+              "id": "f22e778b-c7f5-406b-b756-b5f52615dec5",
+              "name": "Existing clients",
+              "values": [32, 34, 32, 36, 37, 39, 42, 41, 43, 44, 47, 50]
+            },
+            {
+              "id": "61d49e01-33f6-40a6-806e-75ad8b445eb9",
+              "name": "New organic",
+              "values": [3, 0, 2, 1, 1, 1, 0, 3, 1, 2, 1, 1]
+            },
+            {
+              "id": "45e1a178-3a34-4457-aa9a-75a18469b623",
+              "name": "New paid",
+              "values": [0, 0, 2, 2, 1, 2, 1, 1, 0, 1, 2, 0]
+            }
+          ]
+        },
+        {
+          "id": "117b0fa2-0f5f-4d8e-a910-83f0ce5e2957",
+          "name": "Nora Kunz",
+          "values": [36, 38, 39, 41, 42, 45, 46, 46, 46, 50, 52, 52],
+          "channels": [
+            {
+              "id": "560b118c-9a15-4a7e-88fd-1e6fc3005582",
+              "name": "Existing clients",
+              "values": [32, 35, 36, 39, 41, 41, 45, 44, 46, 46, 49, 50]
+            },
+            {
+              "id": "71256b73-4af3-4e7a-995f-a16bae4b4495",
+              "name": "New organic",
+              "values": [3, 2, 2, 2, 0, 3, 1, 2, 0, 3, 1, 0]
+            },
+            {
+              "id": "45ae28ea-682f-4dcb-b9c4-ad514a78a3e1",
+              "name": "New paid",
+              "values": [1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 2, 2]
+            }
+          ]
+        },
+        {
+          "id": "0190cd67-8888-4d31-a45b-ac249922a92f",
+          "name": "Fabian Egli",
+          "values": [30, 31, 33, 33, 35, 37, 38, 40, 43, 45, 45, 47],
+          "channels": [
+            {
+              "id": "f9a61751-659f-4699-966c-479699c3c617",
+              "name": "Existing clients",
+              "values": [27, 29, 30, 32, 33, 34, 37, 36, 39, 42, 45, 45]
+            },
+            {
+              "id": "0ce06e4d-1761-4680-982f-f91a654c5d19",
+              "name": "New organic",
+              "values": [2, 2, 2, 0, 2, 2, 0, 3, 3, 3, 0, 1]
+            },
+            {
+              "id": "e4a1044b-920c-4f82-92c9-b5c81720f1af",
+              "name": "New paid",
+              "values": [1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1]
+            }
+          ]
+        },
+        {
+          "id": "9dad92ca-1f16-4931-a0dc-c4352844c8a1",
+          "name": "Jana Wyss",
+          "values": [33, 34, 36, 38, 39, 40, 39, 40, 39, 42, 46, 48],
+          "channels": [
+            {
+              "id": "30e33fd0-2f1f-459e-a11e-79e464538064",
+              "name": "Existing clients",
+              "values": [29, 33, 33, 36, 37, 39, 38, 38, 39, 39, 41, 46]
+            },
+            {
+              "id": "d00cddc7-9664-4dd2-a365-71484485fed6",
+              "name": "New organic",
+              "values": [3, 0, 3, 2, 1, 1, 0, 2, 0, 2, 3, 1]
+            },
+            {
+              "id": "0ac32714-a0bf-4085-b134-60db2ffd1e3c",
+              "name": "New paid",
+              "values": [1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 2, 1]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "73afc1d2-a7ca-4eca-84bd-b64ac81ceadd",
+      "name": "Lausanne",
+      "values": [177, 189, 194, 198, 210, 213, 230, 238, 245, 249, 260, 266],
+      "employees": [
+        {
+          "id": "2e58ebbb-156c-405b-8e0f-f846b230f332",
+          "name": "Alice Favre",
+          "values": [27, 28, 29, 30, 30, 32, 31, 32, 31, 32, 34, 34],
+          "channels": [
+            {
+              "id": "fe36d428-16c1-41a5-8600-a0fffd4497a1",
+              "name": "Existing clients",
+              "values": [25, 26, 28, 29, 28, 30, 30, 29, 30, 29, 30, 32]
+            },
+            {
+              "id": "6a50f2d0-e4f7-45d0-8a21-fc286eb564c8",
+              "name": "New organic",
+              "values": [0, 2, 1, 0, 2, 2, 1, 2, 0, 2, 3, 2]
+            },
+            {
+              "id": "8d8ecae6-d8f5-4e2d-944d-26dd54b7e49a",
+              "name": "New paid",
+              "values": [2, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0]
+            }
+          ]
+        },
+        {
+          "id": "30de3134-6632-4649-9923-3d0554c07c06",
+          "name": "Thomas Rey",
+          "values": [31, 33, 33, 36, 40, 39, 44, 43, 46, 45, 46, 46],
+          "channels": [
+            {
+              "id": "1e8b7f21-ef95-4829-b69d-bc7b52464969",
+              "name": "Existing clients",
+              "values": [29, 30, 32, 32, 36, 38, 39, 42, 43, 44, 45, 44]
+            },
+            {
+              "id": "f631f60f-b043-4fc2-a404-d3a05ba21bfa",
+              "name": "New organic",
+              "values": [2, 3, 1, 2, 2, 0, 3, 1, 2, 0, 1, 0]
+            },
+            {
+              "id": "b5d6c69f-abaa-467c-8c43-cf7b9a1c608b",
+              "name": "New paid",
+              "values": [0, 0, 0, 2, 2, 1, 2, 0, 1, 1, 0, 2]
+            }
+          ]
+        },
+        {
+          "id": "2926b2d3-f5ac-4536-953b-999ff284625d",
+          "name": "Julie Perrin",
+          "values": [25, 27, 27, 27, 26, 26, 27, 27, 30, 32, 36, 36],
+          "channels": [
+            {
+              "id": "a9d0de11-034f-44a5-a917-a99803364435",
+              "name": "Existing clients",
+              "values": [23, 24, 25, 27, 25, 25, 26, 26, 25, 28, 32, 36]
+            },
+            {
+              "id": "9151432d-6c31-4981-8283-482344ebf14e",
+              "name": "New organic",
+              "values": [2, 2, 1, 0, 0, 1, 1, 0, 3, 3, 3, 0]
+            },
+            {
+              "id": "e8cd8e19-2f05-45ad-8d2d-65e9c939109c",
+              "name": "New paid",
+              "values": [0, 1, 1, 0, 1, 0, 0, 1, 2, 1, 1, 0]
+            }
+          ]
+        },
+        {
+          "id": "cfb899cc-9b7c-43e9-9db8-deca19899e80",
+          "name": "Maxime Bonvin",
+          "values": [32, 33, 32, 32, 36, 38, 41, 43, 45, 47, 49, 51],
+          "channels": [
+            {
+              "id": "04fa4386-5b93-4bbf-bf8b-2346584fb0b9",
+              "name": "Existing clients",
+              "values": [31, 31, 31, 31, 32, 36, 37, 41, 43, 44, 46, 49]
+            },
+            {
+              "id": "757e6469-fb8e-4ead-925b-624d896d3550",
+              "name": "New organic",
+              "values": [1, 2, 1, 1, 2, 0, 3, 1, 0, 1, 3, 0]
+            },
+            {
+              "id": "7baf68ad-f1f8-450e-b6cf-e639a9e9a906",
+              "name": "New paid",
+              "values": [0, 0, 0, 0, 2, 2, 1, 1, 2, 2, 0, 2]
+            }
+          ]
+        },
+        {
+          "id": "2739ba80-c874-4e5d-90be-651ff10804f6",
+          "name": "Elodie Pittet",
+          "values": [28, 32, 34, 34, 38, 39, 43, 46, 44, 43, 44, 49],
+          "channels": [
+            {
+              "id": "9bd41a31-750f-4ffb-84db-1d1c0436cd33",
+              "name": "Existing clients",
+              "values": [27, 28, 31, 33, 33, 36, 38, 43, 44, 43, 42, 44]
+            },
+            {
+              "id": "89a391d4-3cb2-47d1-89c3-d9f697c5c181",
+              "name": "New organic",
+              "values": [1, 3, 1, 0, 3, 1, 3, 2, 0, 0, 0, 3]
+            },
+            {
+              "id": "b5694380-4728-489b-be53-ee7a65112f26",
+              "name": "New paid",
+              "values": [0, 1, 2, 1, 2, 2, 2, 1, 0, 0, 2, 2]
+            }
+          ]
+        },
+        {
+          "id": "4bfea4cb-51e0-429d-a262-ae4f6ee34b5e",
+          "name": "Romain Chappuis",
+          "values": [34, 36, 39, 39, 40, 39, 44, 47, 49, 50, 51, 50],
+          "channels": [
+            {
+              "id": "55cfd90f-cd1b-40b4-9798-7afef48a9d07",
+              "name": "Existing clients",
+              "values": [30, 34, 35, 37, 38, 38, 39, 44, 47, 47, 48, 49]
+            },
+            {
+              "id": "f33bcaf0-4b7e-411e-909c-920b8bcf9ae4",
+              "name": "New organic",
+              "values": [2, 1, 2, 1, 2, 0, 3, 3, 2, 2, 1, 0]
+            },
+            {
+              "id": "72a066e1-bb4d-4755-9d83-1e43e43ecd7f",
+              "name": "New paid",
+              "values": [2, 1, 2, 1, 0, 1, 2, 0, 0, 1, 2, 1]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
